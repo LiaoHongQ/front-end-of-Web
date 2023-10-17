@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    border:0;
+    text-decoration:none;
+}
+body{
+    background-image: url('../img/back_img.png');
+    position: absolute;
+}
+.title_nav{
+    position: absolute;
+    width:300px;
+    height:500px;
+    padding-top: 80px;
+    margin-left: 200px;
+}
+.title_nav ul li img{
+    width:150px;
+    height:200px;
+    margin-left: 20%;
+    border-radius: 35%;
+}
+.title_nav ul .syn span img{
+    width: 50px;
+    height:20px;
+    margin-left:0 !important;
+}
+.title_nav ul .syn p:nth-child(2) img{
+    width:70px !important;
+    height:20px;
+}
+.title_nav ul .syn p{
+    padding-left:20px;
+    padding-right: 15px;
+}
+.body_r_one{
+    width: 800px;
+    height:900px;
+    margin-left:550px;
+}
+.body_r_one ul{
+    display:flex;/*弹性盒模型  平铺效果*/
+    flex-wrap:wrap ;/*强制换行*/
+    justify-content:space-around;/*左右均分*/
+    align-items:center;
+    margin-top:80px;
+}
+.body_r_one ul li{
+    width: 300px;
+    height:200px;
+    margin-top:20px;
+    background-size: contain;
+}
+.body_r_one ul li:nth-child(1){
+    background-image:url('../img/movie.jpg');
+}
+.body_r_one ul li:nth-child(2){
+    background-image:url('../img/play.png');
+}
+.body_r_one ul li:nth-child(3){
+    background-image:url('../img/sncak.jpg');
+}
+.body_r_one ul li:nth-child(4){
+    background-image:url('../img/syudy.jpg');
+}
+
+.body_r_one span{
+    position: absolute;
+    margin-left:-60px;
+    width: 40px;
+    height:200px;
+    background-color: rgba(0,0,0,.2);
+
+    font-size: 25px;
+    z-index: 99;
+    writing-mode:vertical-lr;
+}
+.body_r_one span a{
+    color:#fff;
+}
+.body_r_one span a:hover{
+    color: #747272;
+}
+.bu{
+    position: absolute;
+    margin:40px 0px 0px -50px;
+    font-size:10px;
+}
+.body_r_one img{
+    position: absolute;
+    width:300px;
+    margin-left:-60px;
+    margin-top:80px;
+}

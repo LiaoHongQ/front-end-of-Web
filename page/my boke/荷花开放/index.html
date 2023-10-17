@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>荷花开放</title>
+    <style>
+        .index{
+            position: relative;
+            width:500px;
+            height:500px;
+            margin:100px auto;
+/*             background-color:red; */
+        }
+/*         .index .branches{
+            position: absolute;
+            margin-top:300px;
+            margin-left:250px;
+            width:10px;
+            height:200px;
+            border-radius:5px;
+            background-color:green;
+        } */
+        .index .flowers{
+            position: absolute;margin-top:325px;
+            margin-left:240px;
+            transform:rotate(195deg);
+            z-index: 99;
+        }
+        .index .flowers span{
+            position: absolute;
+            display:block;
+            width:200px;
+            height:55px;
+            /* border:1px solid rgba(); */
+            background:rgba(255,192,203,.5);
+            /* background:linear-gradient(to left, pink , rgba(255,255,255,.8)); */
+            border-radius:50%;
+            transform-origin:0 27px;
+            transition:all 2s;
+/*             transform: translate(50px,50px);
+            transform:rotate(50deg);
+            transform:skewX(0deg); */
+/*             animation:petal 3s linear  0s infinite; */
+        }
+        .index .flowers span:nth-child(1){
+            transform:rotate(45deg);
+        }
+        .index .flowers:hover span:nth-child(1){
+            transform:rotate(-13deg);
+        }
+        .index .flowers span:nth-child(2){
+            transform:rotate(50deg);
+        }
+        .index .flowers:hover span:nth-child(2){
+            transform:rotate(0deg);
+        }
+        .index .flowers span:nth-child(3){
+            transform:rotate(55deg);
+        }
+        .index .flowers:hover span:nth-child(3){
+            transform:rotate(13deg);
+        }
+        .index .flowers span:nth-child(4){
+            transform:rotate(60deg);
+        }
+        .index .flowers:hover span:nth-child(4){
+            transform:rotate(26deg);
+        }
+        .index .flowers span:nth-child(5){
+            transform:rotate(65deg);
+        }
+        .index .flowers:hover span:nth-child(5){
+            transform:rotate(39deg);
+        }
+        .index .flowers span:nth-child(6){
+            transform:rotate(70deg);
+        }
+        .index .flowers:hover span:nth-child(6){
+            transform:rotate(52deg);
+        }
+        .index .flowers span:nth-child(7){
+           /*  width:150px !important; */
+            transform:rotate(75deg);
+        }
+        .index .flowers span:nth-child(8){
+            transform:rotate(80deg);
+        }
+        .index .flowers:hover span:nth-child(8){
+            transform:rotate(95deg);
+        }
+        .index .flowers span:nth-child(9){
+            transform:rotate(85deg);
+        }
+        .index .flowers:hover span:nth-child(9){
+            transform:rotate(110deg);
+        }
+        .index .flowers span:nth-child(10){
+            transform:rotate(90deg);
+        }
+        .index .flowers:hover span:nth-child(10){
+            transform:rotate(123deg);
+        }
+
+        .index .flowers span:nth-child(11){
+            transform:rotate(95deg);
+        }
+        .index .flowers:hover span:nth-child(11){
+            transform:rotate(136deg);
+        }
+        .index .flowers span:nth-child(12){
+            transform:rotate(100deg);
+        }
+        .index .flowers:hover span:nth-child(12){
+            transform:rotate(149deg);
+        }
+        .index .flowers span:nth-child(13){
+            transform:rotate(105deg);
+        }
+        .index .flowers:hover span:nth-child(13){
+            transform:rotate(162deg);
+        }
+/*         .index .flowers span:nth-child(14){
+            transform:rotate(110deg);
+        }
+        .index .flowers span:nth-child(15){
+            transform:rotate(115deg);
+        } */
+
+
+/*         @keyframes petal{
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform:rotate(360deg);
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="index">
+        <div class="flowers">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+<!--             <span></span>
+            <span></span> -->
+        </div>
+        <div class="branches"></div>
+    </div>
+</body>
+</html>

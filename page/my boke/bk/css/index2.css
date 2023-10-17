@@ -1,0 +1,24 @@
+/*
+* @Author: name
+* @Date:   2021-12-24 09:28:28
+* @Last Modified by:   name
+* @Last Modified time: 2021-12-24 11:01:12
+*/
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+textarea[name=index]{
+    width:700px;
+    height:1000px;
+    background-color:#ccc;
+}
+footer{
+    margin:0 auto;
+    background: #ccc;
+    height:200px;
+}
+footer p{
+    margin-left:35%;
+}

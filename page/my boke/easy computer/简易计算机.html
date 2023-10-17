@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+        .tit{
+            margin-left:10px;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .btn{
+            width:30px;
+            height:30px;
+            cursor:pointer;
+        }
+    </style>
+    <script>
+        function computer(obj){
+            var num1,num2,lastresult;
+            num1=parseFloat(document.myfrom.firstnumber.value);
+            num2=parseFloat(document.myfrom.secondnumber.value);
+            switch(obj){
+                case "+": lastresult=num1+num2;break;
+                case "-": lastresult=num1-num2;break;
+                case "*": lastresult=num1*num2;break;
+                case "/":
+                    if (num2!=0) lastresult=num1/num2;
+                    else lastresult="除数不能为0!"
+                    break;
+            }
+            document.myfrom.result.value=lastresult;
+        }
+    </script>
+</head>
+<body>
+<form action="" method="post" accept-charset="utf-8" id="myfrom" name="myfrom">
+
+    <table align="center">
+        <caption><img src="image/computer.jpg" alt="" width="30px" height="40px"><span class="tit">简易计算机</span></caption>
+        <tr>
+            <td>第一个数:</td>
+            <td><input type="text" name="firstnumber" id="firstnumber" size="25"></td>
+        </tr>
+        <tr>
+            <td>第二个数:</td>
+            <td><input type="text" name="secondnumber" id="secondnumber" size="25"></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <input type="button" value="+" id="btn" class="btn" onclick="computer('+')"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="-" id="btn" class="btn" onclick="computer('-')"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="*" id="btn" class="btn" onclick="computer('*')"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" value="/" id="btn" class="btn" onclick="computer('/')"/>
+            </td>
+        </tr>
+        <tr>
+            <td>所得结果:</td>
+            <td><input type="" name="result" id="result"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

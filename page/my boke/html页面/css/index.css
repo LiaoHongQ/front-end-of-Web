@@ -1,0 +1,98 @@
+/*
+* @Author: name
+* @Date:   2021-09-26 16:15:26
+* @Last Modified by:   name
+* @Last Modified time: 2021-09-26 19:58:27
+*/
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.all{
+    width:1015px;
+    margin:auto auto;
+    // background-color: red;
+}
+// .all .banner{
+//     margin-left: 17%;
+// }
+.all .navigation ul li{
+    display: inline-block;
+    width:166px;
+    height:35px;
+    margin-left:-1px;
+    text-align: center;
+    line-height: 35px;
+    background-color:rgba(14,36,77,.8);
+}
+.all .navigation ul{
+    // display:block;
+    background-color:rgba(0,0,0,.3);
+    margin-top: 0px;
+}
+.all .navigation ul li:hover{
+    background-color:rgba(82,47,117,.5);
+}
+.all .navigation ul li:hover a{
+    color:#fff;
+}
+.all .navigation ul li a{
+        text-decoration: none;
+    color: yellow;
+}
+.all .left_body{
+    padding-top:30px;
+    border-left: 1px dashed rgba(0,0,0,.5);
+    border-right: 1px dashed rgba(0,0,0,.5);
+
+}
+.all .left_body span{
+    cursor: pointer;
+    color:rgba(0,0,0,.5);
+    display:block;
+    margin-bottom: 15px;
+    margin-left:50px;
+}
+.all .left_body p{
+    margin-top:15px;
+    margin-left:15px;
+}
+.all .body_right{
+    position: relative;
+    width:200px;
+    height:130px;
+    margin-left:700px;
+    margin-top:-380px;
+    border:1px dashed rgba(0,0,0,.5);
+}
+.all .body_right .land .login{
+    border-radius: 5px;
+    background-color:rgba(0,0,0,.5);
+}
+.all .body_right .land span{
+    margin-left:10px;
+}
+.all .body_right .land input{
+    width:80px;
+    margin-left:25px;
+    margin-bottom:20px;
+}
+.all .body_right .more{
+    margin-top:25px;
+}
+.all .body_right .more li{
+    margin-top:15px;
+    text-align:center;
+}
+.all .left_body .foot{
+    margin-top:80px;
+    width:100%;
+    height:80px;
+    background-color:rgba(0,64,112,.5);
+}
+.all .left_body .foot h2{
+    text-align:center;
+    line-height:80px;
+    font-weight: inherit;
+}

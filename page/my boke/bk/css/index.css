@@ -1,0 +1,203 @@
+/*
+* @Author: name
+* @Date:   2021-10-22 18:03:56
+* @Last Modified by:   name
+* @Last Modified time: 2021-12-24 11:02:40
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+    list-style: none;
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,.5);
+}
+.header_body {
+    position: relative;
+}
+.header_body .navigation ul li:nth-child(1){
+    margin-left: 200px;
+}
+.header_body .navigation ul li{
+        display: inline-block;
+        width:60px;
+        height:45px;
+        line-height: 45px;
+}
+.header_body .navigation ul li a{
+    color:rgba(0,0,0,.5);
+}
+.header_body .navigation ul li a:hover{
+    color:rgba(0,0,0,.8);
+}
+.header_body .navigation ul input{
+    margin-left:300px;
+    background-color: rgba(0,0,0,.05);
+    width:230px;
+    padding:8px;
+}
+.header_body .navigation ul .soso{
+    position: absolute;
+    cursor: pointer;
+    margin-left:-40px;
+    margin-top: 10px;
+    width:30px;
+    height:30px;
+}
+.header_body .navigation ul span a{
+    background-color:#fff;
+    margin-left:15px;
+    margin-right: 5px;
+    font-size: 18px;
+    cursor:pointer;
+    color:rgba(0,0,0,.5);
+}
+.main_body .banner{
+    width:100%;
+    height:400px;
+    // background-color:red;
+}
+.main_body .banner ul li a img{
+    width: 100%;
+    height:400px;
+}
+.main_body .main_nav {
+    position:relative;
+}
+.main_body .main_nav nav ul{
+    margin-left:200px;
+}
+.main_body .main_nav nav ul li{
+    display:inline-block;
+    margin-left:15px;
+    height:35px;
+}
+.main_body .main_nav nav ul li a{
+    font-size:13px;
+    color:rgba(0,0,0,.7);
+    line-height:35px;
+    text-align: center;
+}
+.myindex{
+    position:relative;
+    width:270px;
+    height:1500px;
+    margin-left:72%;
+    // background-color:red;
+}
+.myindex .myindex_head{
+    margin-top:15px;
+    margin-left:20px;
+}
+.myindex .myindex_head>span{
+    display:inline-block;
+    width:220px;
+    height:1px;
+    background:url("");
+}
+.myindex .myindex_head p{
+    font-size:14px;
+}
+.myindex .myindex_head p a{
+    color:rgba(0,0,255,.8);
+}
+.myindex .myindex_head p a:hover{
+    color:rgba(0,0,255,.5);
+    text-decoration:underline;
+}
+#calendar{
+    position: relative;
+    width:210px;
+    margin-top:15px;
+    overflow: hidden;
+    padding:20px;
+}
+#calendar h4{
+    text-align:center ;
+    margin-bottom: 10px;
+}
+#calendar .lastmonth{
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+#calendar .nextmonth{
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+#calendar .week{
+    height:30px;
+    line-height:20px;
+    border-bottom:1px solid #000;
+    margin-bottom:10px;
+}
+#calendar .week li{
+    float:left;
+    width:30px;height:30px;
+    text-align:center;
+    list-style:none;
+}
+#calendar .dataList{
+    overflow:hidden;
+    clear:both;
+}
+#calendar .dataList li{
+    float:left;
+    width:30px;height:30px;
+    text-align: center;
+    line-height:30px;
+    list-style:none;
+}
+#calendar .dataList .ccc{
+    color:#ccc;
+}
+#calendar .dataList .red{
+    background: #f90;
+    color:#fff;
+}
+#calendar .dataList .sun{
+    color:#f00;
+}
+.myindex .myindex_soso input{
+    padding: 5px;
+}
+.myindex .myindex_soso button{
+    width:80px;
+    margin-left:5px;
+    margin-bottom:5px;
+    padding:3px;
+}
+.myindex .myindex_soso button a{
+    color:black;
+}
+.myindex .myindex_soso button a:hover{
+    color:#f91;
+}
+.myindex .more p{
+    // text-align:right;
+    color:#ccc;
+}
+.myindex .more p a{
+    // text-align:right;
+    color:rgba(0,0,0,.4);
+}
+.myindex .more p:before{
+    content: "---------------------------->>";
+}
+.myindex .more p a:hover{
+    color:rgba(0,0,0,.5);
+}
+.main_body .left_body{
+    position: absolute;
+    width:300px;
+    height:100px;
+    background-color:red;
+    // float:left;
+    margin-left:200px;
+    margin-top:-1500px;
+}

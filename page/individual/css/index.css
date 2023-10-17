@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    border:0;
+    text-decoration:none;
+}
+.head_a{
+    width: 75%;
+    height:150px;
+    margin:auto;
+    background: #6F6464;
+    border:2px solid #759FDD;
+}
+.head_a img{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    margin-left:10%;
+    margin-top:20px;
+    border-radius: 50%;
+}
+.head_a a{
+    position: absolute;
+    font-size:50px;
+    font-weight: 500;
+    color:rgba(255,255,255,.9);
+    margin-left:450px;
+    margin-top:45px;
+}
+.head_a a:hover{
+    color:rgba(255,255,255,.3);
+}
+.body_a{
+    width: 75%;
+    height:600px;
+    background:#DEDCDC;
+    margin:auto;
+    border:1px solid #759fde;
+}
+.body_a .body_left .left_one{
+    width: 270px;
+    height:200px;
+    padding-top:35px;
+    border-right: 1px solid rgba(0,0,0,.7);
+    border-bottom: 1px solid rgba(0,0,0,.7);
+}
+.body_a .body_left .left_one .left_1{
+    width: 230px;
+    height:190px;
+    margin-left:15px;
+    padding-top:10px;
+    border-top: .5px solid rgba(0,0,0,.7);
+}
+.body_a p{
+    margin-left:25px;
+    font-size:15px;
+    font-family: '华文隶书';
+}
+.body_a .body_left .left_two{
+    width: 270px;
+    height:130px;
+    padding-top:35px;
+    border-right: 1px solid rgba(0,0,0,.7);
+    border-bottom: 1px solid rgba(0,0,0,.7);
+}
+.body_a .body_left .left_two .left_2{
+    width: 230px;
+    height:100px;
+    margin-left:15px;
+    padding-top:10px;
+    border-top: .5px solid rgba(0,0,0,.7);
+}
+.body_a .body_left .left_two .left_2 input[type="range"]{
+    -webkit-appearance: none;
+    background-color: rgba(115, 133, 159, 0.5);
+    height: 5px;
+}
+.body_a .body_left .left_three{
+    width: 270px;
+    height:130px;
+    padding-top:35px;
+    border-right: 1px solid rgba(0,0,0,.7);
+    border-bottom: 1px solid rgba(0,0,0,.7);
+}
+.body_a .body_left .left_three .left_3{
+    width: 230px;
+    height:100px;
+    margin-left:15px;
+    padding-top:10px;
+    border-top: .5px solid rgba(0,0,0,.7);
+}
+.body_right{
+    position: absolute;
+    margin-left:400px;
+    margin-top:-460px;
+}
+.body_right p{
+    font-size:30px;
+}
+.body_right p span{
+    font-size:1.5rem;
+    color: red;
+}
+.body_right p span a:hover{
+    color:#fff;
+}
